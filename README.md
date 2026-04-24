@@ -13,28 +13,30 @@ Using Google Trends data, I tracked behavioral signals around DoorDash — cance
 ## 🔍 What This Project Does
 
 - Tracks 6 behavioral keywords capturing:
-  - cancellation intent
-  - price sensitivity
-  - switching behavior
-- Overlays DoorDash earnings call dates as reference points
-- Compares search signal trends against earnings call language
-- Identifies divergence between real-time consumer behavior and reported metrics
+  - cancellation intent  
+  - price sensitivity  
+  - switching behavior  
+- Overlays DoorDash earnings call dates as reference points  
+- Compares search signal trends against earnings call language  
+- Identifies divergence between real-time consumer behavior and reported metrics  
 
 ---
 
 ## 📊 Key Findings
 
-- **"Cancel DoorDash"** — remained elevated at **60–80 throughout 2025**
-- **"DoorDash not worth it"** — spiked to **100 in April 2026**
-- **"Switch to Uber Eats"** — peaked at **100 in March 2026**
+- **"Cancel DoorDash"** — remained elevated at **60–80 throughout 2025**  
+- **"DoorDash not worth it"** — spiked to **100 in April 2026**  
+- **"Switch to Uber Eats"** — peaked at **100 in March 2026**  
 - **Q4 2025 Earnings (Feb 18, 2026)** reported:
-  - record subscribers
-  - all-time high MAUs
+  - record subscribers  
+  - all-time high MAUs  
 
 👉 Despite strong reported performance, search signals related to dissatisfaction, cancellations, and switching were **rising across the same period**.
 
-**Interpretation:**
+**Interpretation:**  
 Despite reporting record growth, DoorDash shows a visible divergence between reported performance and consumer search behavior — suggesting that **aggregated metrics and real-time sentiment may move on different timelines.**
+
+Search signals appear to precede or coincide with earnings narratives, suggesting potential value as an early indicator of emerging consumer sentiment shifts.
 
 ---
 
@@ -48,10 +50,10 @@ Search behavior may provide one such **early-stage signal of changing consumer i
 
 ## 🛠️ Tech Stack
 
-- **Python** — pytrends, pandas
-- **Streamlit** — interactive dashboard with sidebar filters
-- **Plotly** — time series visualization with earnings overlays
-- **Data Source** — Google Trends (US, 12 months, weekly)
+- **Python** — pytrends, pandas  
+- **Streamlit** — interactive dashboard with sidebar filters  
+- **Plotly** — time series visualization with earnings overlays  
+- **Data Source** — Google Trends (US, 12 months, weekly)  
 
 ---
 
@@ -61,7 +63,6 @@ Search behavior may provide one such **early-stage signal of changing consumer i
 pip install -r requirements.txt
 streamlit run dashboard/app.py
 ```
-
 ---
 
 ## ⚠️ Methodology & Limitations
